@@ -12,6 +12,9 @@ result.1
 print("Success? \(result.0)")
 print("Message: \(result.1)")
 
+//let personable = (name: String, age: Int)
+// Tuples cannot have optional parameters or undeclared parameters
+
 let person = (name: "Jim", age: 30)
 person.age
 person.name
